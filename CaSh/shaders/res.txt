@@ -1,0 +1,2 @@
+http://www.cnblogs.com/crazii/category/246849.html
+https://software.intel.com/zh-cn/articles/designing-the-framework-of-a-parallel-game-engine

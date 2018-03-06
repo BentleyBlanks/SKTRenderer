@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{b74982f8-1b0d-4958-ad65-27eac288d8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RHI">
+      <UniqueIdentifier>{588f3c8a-5b0a-423a-be35-98a594f1095d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D11">
+      <UniqueIdentifier>{9db5b780-0620-419b-8f7c-a42dbdbfda1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12">
+      <UniqueIdentifier>{d2387e71-4f69-44a5-8127-2ed1504063f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GNM">
+      <UniqueIdentifier>{1e74c760-a7d3-470a-9ee7-1a5662053de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{b69b72b0-48de-4795-bb76-495feac669ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vulkan">
+      <UniqueIdentifier>{8187e299-65eb-48ce-a0f1-ecb68cb4716e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{99f8a51b-bc18-413e-8d1e-ade9c6a45c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\platform">
+      <UniqueIdentifier>{dde53eff-7fac-48cc-b6f8-0d0038fb1ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\src">
+      <UniqueIdentifier>{7fa8c292-126e-4c56-80c1-6afaa87b1733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{95780fad-c802-4068-80c9-972871daf730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{789a4304-6ecd-4945-8e28-ed608d16eeb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Null">
+      <UniqueIdentifier>{abb1e6d4-c911-4107-b913-d130fdfa7399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{fb80f209-20b1-4e15-ba96-fcb8f6719fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\FastApp">
+      <UniqueIdentifier>{a2711f19-8682-4931-aa6c-ce1822fe3626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\FastApp\common">
+      <UniqueIdentifier>{d2d7119a-7604-4049-82b6-0f2242d038e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdPart">
+      <UniqueIdentifier>{39e25693-cf91-4aa5-bb5c-69333c5726a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\FastApp\D3D11WRAP">
+      <UniqueIdentifier>{50ec32aa-ec2b-46c8-87e9-cebaaf49935b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\FastApp\WRAPEDAPI">
+      <UniqueIdentifier>{fb0f88bb-38b0-4ff3-851d-19271b80bf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\FastApp\NEWWRAP">
+      <UniqueIdentifier>{c363b961-702e-493c-90f2-a04fb7a6df79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdPart\imgui">
+      <UniqueIdentifier>{024bbfde-23b6-408a-805f-9575a41b6855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{1d7cc5a4-f587-4271-a0b2-641494eaca09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderResources.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Complex.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Curves.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\FFT.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Function.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Plane.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\RBMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\RBMathBase.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\RBMathUtilities.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\RBVectors.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\AABB.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Axis.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Box.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Color.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Color32.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Colorf.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Platform\WindowsPlatformTemp.h">
+      <Filter>Math\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="RBMath\Inc\Platform\RBBasedata.h">
+      <Filter>Math\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="RHIDynamic.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\RHID3D11.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="RHIDef.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Setting.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Util.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RBTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AppTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyDefinetions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Assertion.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RefCount.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AreTypesEqual.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EnableIf.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="RHIResources.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Resources.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Viewport.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelFormat.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUtils.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TYpeHash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Crc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceArray.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRHIResourceArray.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureHash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11StateCache.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="RHICommandList.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderAssets.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11ShaderResources.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\DeferredShadingFastApp.h">
+      <Filter>App\FastApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\D3D11InputElementDesc.h">
+      <Filter>App\FastApp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\ConservativeRasterizationFastApp.h">
+      <Filter>App\FastApp</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\DDSTextureLoader.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\HairShadingFastApp.h">
+      <Filter>App\FastApp</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\SkinShadingFastApp.h">
+      <Filter>App\FastApp</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\D3D11WRAP.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="FastApp\Tools.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11BoundShaderStateCache.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11State.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="RHIUtil.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11ConstantBuffer.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CRFWRAP.h">
+      <Filter>App\FastApp\WRAPEDAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformBuffer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11FastRenderer.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\FastRenderResources.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="FastConfig.h">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="CRFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="HSFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoadFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="FastAppTemplate.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\imgui.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\imgui_internal.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\imgui_user.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\stb_rect_pack.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\stb_textedit.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\stb_truetype.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\imconfig.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdpart\imgui\imgui_impl_dx11.h">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="CRFastApp_new.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="SVOFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewFastApp.h">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RBMath\Src\RBMath.cpp">
+      <Filter>Math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="RBMath\Src\RBMathImpl.cpp">
+      <Filter>Math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="RBMath\Src\Color32.cpp">
+      <Filter>Math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="RBMath\Src\Colorf.cpp">
+      <Filter>Math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Device.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Util.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RBTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AppTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelFormat.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Texture.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Viewport.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\RHID3D11.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUtils.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Crc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11IndexBuffer.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11VertexBuffer.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11StructureBuffer.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11UniformBuffer.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureHash.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderFormatD3D.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderAssets.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="FastApp\DeferredShadingFastApp.cpp">
+      <Filter>App\FastApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FastApp\D3D11InputElementDesc.cpp">
+      <Filter>App\FastApp\common</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdpart\tinyobj\tiny_obj_loader.cc">
+      <Filter>ThirdPart</Filter>
+    </ClCompile>
+    <ClCompile Include="FastApp\ConservativeRasterizationFastApp.cpp">
+      <Filter>App\FastApp</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\DDSTextureLoader.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="FastApp\HairShadingFastApp.cpp">
+      <Filter>App\FastApp</Filter>
+    </ClCompile>
+    <ClCompile Include="FastApp\SkinShadingFastApp.cpp">
+      <Filter>App\FastApp</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Shaders.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11BoundShaderStateCache.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Commands.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11State.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11ConstantBuffer.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11VertexDeclaration.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11StateCache.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderResource.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CRFWRAP.cpp">
+      <Filter>App\FastApp\WRAPEDAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11FastRenderer.cpp">
+      <Filter>App\FastApp\D3D11WRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="CRFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="HSFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoadFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="FastAppTemplate.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdpart\imgui\imgui_draw.cpp">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdpart\imgui\imgui.cpp">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdpart\imgui\imgui_impl_dx11.cpp">
+      <Filter>ThirdPart\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="CRFastApp_new.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="SVOFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewFastApp.cpp">
+      <Filter>App\FastApp\NEWWRAP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="FastApp\D3D11WRAP.cpp" />
+    <Text Include="shaders\新建文本文档.txt">
+      <Filter>Shader</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="thirdpart\imgui\imgui_user.inl">
+      <Filter>ThirdPart\imgui</Filter>
+    </None>
+    <None Include="shaders\shading.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\voxelize_g.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\voxelize_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\voxelize_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\conservation_rasterization_g.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\conservation_rasterization_new_g.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\conservation_rasterization_new_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\conservation_rasterization_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\conservation_rasterization_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferred_compass_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferred_compass_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferred_gbuffer_g.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferred_gbuffer_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferred_gbuffer_p_hair.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferred_gbuffer_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferrend_hair_shading_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\deferrend_skin_shading_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\gpu_noise.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\hdr_post.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\model_view.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\pbr_sky.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_bilt.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_blur_x.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_blur_xy.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_bright.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_calc_avg_lum.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_cloud.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_gen_lumin.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_save_frame.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\post_visulize_voxel.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\render_voxel_g.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\render_voxel_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\render_voxel_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\simple_p.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\simple_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\sky_v.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\sssss.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\svo_alloc_c.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\svo_flag_c.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\svo_init_c.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\svo_update_param_c.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

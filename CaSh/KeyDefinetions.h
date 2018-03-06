@@ -1,0 +1,136 @@
+#pragma once
+
+
+
+enum WIPKEY
+{
+	WIPKEY_F1,
+	WIPKEY_F2,
+	WIPKEY_F3,
+	WIPKEY_F4,
+	WIPKEY_F5,
+	WIPKEY_F6,
+	WIPKEY_F7,
+	WIPKEY_F8,
+	WIPKEY_F9,
+	WIPKEY_F10,
+	WIPKEY_F11,
+	WIPKEY_F12,
+	WIPKEY_ESC,
+	WIPKEY_BACKSPACE,
+	WIPKEY_ENTER,
+	WIPKEY_RSHIFT,
+	WIPKEY_LSHIFT,
+	WIPKEY_LCTRL,
+	WIPKEY_RCTRL,
+	WIPKEY_LALT,
+	WIPKEY_RALT,
+	WIPKEY_TAB,
+	WIPKEY_UP,
+	WIPKEY_DOWN,
+	WIPKEY_LEFT,
+	WIPKEY_RIGHT
+};
+
+/*
+//internal key map mask
+#define WIP_UP								0x00000001
+#define WIP_DOWN							0x00000002
+#define WIP_LEFT							0x00000004
+#define WIP_RIGHT							0x00000008
+#define WIP_FIRE1							0x00000010
+#define WIP_FIRE2							0x00000020
+#define WIP_FIRE3							0x00000040
+#define WIP_JUMP							0x00000080
+#define WIP_OK								0x02000000
+#define WIP_CANCEL							0x04000000
+#define WIP_MENUFORWARD						0x08000000
+#define WIP_MENUBACKWARD					0x10000000
+
+#define WIP_MOUSE_X							0x00000100
+#define WIP_MOUSE_Y							0x00000200
+//bit:/ mouse scroller / up / down /
+#define WIP_MOUSE_SCROLLER					0x00000400
+#define WIP_MOUSE_SCROLLER_UP				0x00000800
+#define WIP_MOUSE_SCROLLER_DOWN				0x00001000
+
+#define WIP_CTRL1							0x00004000
+#define WIP_CTRL2							0x00008000
+#define WIP_CTRL3							0x00010000
+#define WIP_CTRL4							0x00020000
+#define WIP_BUTTON1							0x00040000
+#define WIP_BUTTON2							0x00080000
+#define WIP_BUTTON3							0x00100000
+#define WIP_BUTTON4							0x00200000
+#define WIP_HOME							0x00400000
+#define WIP_BACK							0x00800000
+#define WIP_START							0x01000000
+*/
+
+#define WIP_F1				0x00000001
+#define	WIP_F2				0x00000002
+#define	WIP_F3				0x00000004
+#define	WIP_F4				0x00000008
+#define	WIP_F5				0x00000010
+#define	WIP_F6				0x00000020
+#define	WIP_F7				0x00000040
+#define	WIP_F8				0x00000080
+#define	WIP_F9				0x00000100
+#define	WIP_F10				0x00000200
+#define	WIP_F11				0x00000400
+#define	WIP_F12				0x00000800
+#define	WIP_ESC				0x00001000
+#define	WIP_BACKSPACE		0x00002000
+#define	WIP_ENTER			0x00004000
+#define	WIP_RSHIFT			0x00008000
+#define	WIP_LSHIFT			0x00010000
+#define	WIP_LCTRL			0x00020000
+#define	WIP_RCTRL			0x00040000
+#define	WIP_LALT			0x00080000
+#define	WIP_RALT			0x00100000
+#define	WIP_TAB				0x00200000
+#define	WIP_UP				0x00400000
+#define	WIP_DOWN			0x00800000
+#define	WIP_LEFT			0x01000000
+#define	WIP_RIGHT			0x02000000
+#define  WIP_SPACE			0x04000000
+#define WIP_MOUSE_LBUTTON	0x08000000
+#define WIP_MOUSE_RBUTTON	0x10000000
+#define WIP_MOUSE_MBUTTON	0x20000000
+//Mouse scroller offset bits.1 for up,0 for down.
+#define WIP_MOUSE_SCROLLER_UP	0x40000000
+#define WIP_MOUSE_SCROLLER_DOWN 0x80000000
+
+#define WIP_Q		0x00000001
+#define WIP_W		0x00000002
+#define WIP_E		0x00000004
+#define WIP_R		0x00000008
+#define WIP_T		0x00000010
+#define WIP_Y		0x00000020
+#define WIP_U		0x00000040
+#define WIP_I		0x00000080
+#define WIP_O		0x00000100
+#define WIP_P		0x00000200
+#define WIP_A		0x00000400
+#define WIP_S		0x00000800
+#define WIP_D		0x00001000
+#define WIP_F		0x00002000
+#define WIP_G		0x00004000
+#define WIP_H		0x00008000
+#define WIP_J		0x00010000
+#define WIP_K		0x00020000
+#define WIP_L		0x00040000
+#define WIP_Z		0x00080000
+#define WIP_X		0x00100000
+#define WIP_C		0x00200000
+#define WIP_V		0x00400000
+#define WIP_B		0x00800000
+#define  WIP_N	0x01000000
+#define  WIP_M	0x02000000
+//
+/*
+//Mouse
+#define  WIP_MOUSE_LBUTTON	0x10000000
+#define  WIP_MOUSE_MBUTTON		0x20000000
+#define WIP_MOUSE_RBUTTON	0x40000000
+*/
